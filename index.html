@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+<!--Link game.js and player.js-->
+   
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+
+<!--Add database config here below-->
+<script>
+var firebaseConfig = {
+  apiKey: "AIzaSyB9aEkL2E7L7SGrylXoSaXvExjp2_HdpxM",
+  authDomain: "multi-playercarracinggam-39cb5.firebaseapp.com",
+  databaseURL: "https://multi-playercarracinggam-39cb5-default-rtdb.firebaseio.com",
+  projectId: "multi-playercarracinggam-39cb5",
+  storageBucket: "multi-playercarracinggam-39cb5.appspot.com",
+  messagingSenderId: "49449143287",
+  appId: "1:49449143287:web:90c138c023b6edfbf8bcf2"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
